@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>TODO APP</h1>
+    <div class="theme-toggle">
+        <button id="toggleTheme">🌙</button>
+    </div>
+
+<div>
+    <h1>TODO APP</h1>
+    <div class="input-row">
         <input type="text" placeholder="enter your todo here..." id="inputElement" autocomplete="off">
         <button id="add">Add</button>
-        <!-- <button id="delete">Delete</button> -->
-        <div id="todoContainer"></div>
     </div>
+    <div id="emptyMessage">No todos yet. Add one above!</div>
+    <div id="todoContainer"></div>
+    <p id="para">Made with ❤️ by <a href="https://github.com/kaustavxg" target="_blank" rel="noopener noreferrer"><strong>Kaustav Gupta</strong></a></p>
+</div>
+
 </body>
 <script src="script.js"></script>
 </html>
